@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.inputs input {
+  padding: 10px;
+  width: 100%;
+}
+
+.categories {
+  font-size: 20px;
+}
+
+.categories select {
+  padding: 10px 20px;
+}
+
+.tag_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tag_container textarea {
+  padding: 10px;
+  width: 100%;
+  height: 50px;
+}
+
+.tag_container button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.tags {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.tags small {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+}
